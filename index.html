@@ -214,6 +214,108 @@
 @media(max-width:1200px){#pls-preview .arcade-telemetry{grid-template-columns:1fr 1fr}#pls-preview .arcade-telemetry .pls-reference-reading{grid-column:1/-1;display:grid;grid-template-columns:1fr auto;align-items:center}#pls-preview .arcade-telemetry .pls-reference-reading strong{grid-column:2;grid-row:1/3}#pls-preview .arcade-telemetry .pls-reference-reading>span:last-child{grid-column:1;font-size:10px}#pls-preview .arcade-telemetry strong{font-size:24px}}
 @media(max-width:950px){#pls-preview .arcade-telemetry{grid-template-columns:1.2fr 1fr 1fr}#pls-preview .arcade-telemetry .pls-reference-reading{grid-column:auto;display:flex}#pls-preview .arcade-telemetry .pls-reference-reading>span:last-child{font-size:11px}#pls-preview .pls-presets{grid-template-columns:repeat(4,minmax(0,1fr))}.arcade-order-summary{padding:18px}}
 @media(max-width:640px){#pls-preview .arcade-telemetry{grid-template-columns:1fr 1fr;gap:8px}#pls-preview .arcade-telemetry .pls-reference-reading{grid-column:1/-1;display:grid;grid-template-columns:1fr auto;align-items:center;padding:11px 13px!important}#pls-preview .arcade-telemetry .pls-reference-reading strong{grid-column:2;grid-row:1/3;font-size:28px}#pls-preview .arcade-telemetry .pls-reference-reading>span:last-child{grid-column:1;font-size:10px}#pls-preview .arcade-telemetry>div{padding:10px 11px!important}#pls-preview .arcade-telemetry strong{font-size:23px}#pls-preview .arcade-telemetry>div>span:first-child{font-size:9px;letter-spacing:.3px}#pls-preview .arcade-telemetry>div>span:last-child{font-size:10px}#pls-preview .pls-presets{grid-template-columns:1fr 1fr}.arcade-order-summary{padding:15px}.arcade-package-meta{font-size:11px}.arcade-order-detail{font-size:12px}.arcade-operation-title,.arcade-test-title{font-size:13px}.arcade-selection-title{font-size:13px}.arcade-stage-number{height:26px;width:26px}}
+
+.mobile-load-selection,.mobile-operation-controls{display:contents}.mobile-slider-group{display:contents}.mobile-component-details{display:contents}.mobile-component-details>summary{display:none}.mobile-detail-content{display:contents}.mobile-machine-heading,.mobile-zoom-label{display:none}.desktop-zoom-label{display:inline}
+@media(max-width:640px){
+ #pls-preview .pls-header{padding:12px 14px;background:#101a2c;flex-wrap:nowrap;min-height:58px}
+ #pls-preview .pls-brand{gap:8px;min-width:0}#pls-preview .pls-brand-symbol{height:32px;width:32px;min-width:32px;border-radius:8px}#pls-preview .pls-brand-symbol svg{width:20px;height:20px}
+ #pls-preview h1{font-size:17px;letter-spacing:-.5px;white-space:nowrap}#pls-preview .pls-eyebrow,#pls-preview .pls-demo-label,#pls-preview .pls-subheader{display:none}
+ #pls-preview .pls-tabs{padding:5px 10px;min-height:54px}#pls-preview .pls-tab{padding:9px 7px;min-height:44px;font-size:11px}
+ #pls-preview .pls-pane{padding:10px 12px 18px}#pls-preview #pls-workflow{display:none}
+ #pls-preview .pls-workspace{display:block}#pls-preview .pls-machine-panel{display:block}
+ #pls-preview .mobile-load-selection{display:grid;grid-template-columns:105px minmax(0,1fr);gap:6px 12px;background:#17243a;border:1px solid #405474;border-radius:9px;padding:10px 11px;margin-bottom:10px}
+ #pls-preview .mobile-load-selection .pls-setpoint-heading{grid-column:1;margin:0;display:block;font-size:10px}
+ #pls-preview .mobile-load-selection .pls-setpoint-heading label{display:block;color:#b9c9df;font-size:10px;margin-bottom:3px}
+ #pls-preview .mobile-load-selection .pls-setpoint-heading>span{justify-content:flex-start;gap:5px}
+ #pls-preview #pls-target-number{font-size:20px;width:72px;height:44px;min-height:44px;padding:5px 8px;line-height:1.2}
+ #pls-preview .mobile-slider-group{display:block;align-self:center;min-width:0}
+ #pls-preview .mobile-load-selection .pls-slider{margin:4px 0 3px;min-height:26px;width:100%}
+ #pls-preview .mobile-load-selection .pls-range-labels{font-size:9px;gap:4px}
+ #pls-preview .mobile-load-selection #pls-target-force{font-size:10px;color:#ffd7a9}
+ #pls-preview .mobile-load-selection .arcade-selection-title{display:none}
+ #pls-preview .mobile-load-selection .pls-presets{grid-column:1/-1;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:0}
+ #pls-preview .mobile-load-selection .pls-presets button{min-height:44px;padding:7px 3px;align-items:center;justify-content:center;gap:0;line-height:1.2}
+ #pls-preview .mobile-load-selection .arcade-package-title{font-size:15px}.mobile-load-selection .arcade-package-title small{font-size:10px}
+ #pls-preview .mobile-load-selection .arcade-package-meta{display:none}
+ #pls-preview .mobile-load-selection .pls-presets button[aria-pressed="true"]::after{top:3px;right:3px;width:11px;height:11px;font-size:8px;line-height:11px}
+ #pls-preview .pls-machine-panel>.pls-panel-heading{margin:0 0 6px;flex-wrap:nowrap;gap:8px;align-items:center;min-height:44px}
+ #pls-preview .pls-machine-panel>.pls-panel-heading>div:first-child{min-width:0}
+ #pls-preview .pls-machine-panel>.pls-panel-heading h2,#pls-preview .pls-machine-panel>.pls-panel-heading .studio-subtitle{display:none}
+ .mobile-machine-heading{display:block;font-size:12px;font-weight:700;color:#cddbef;white-space:nowrap}
+ #pls-preview .studio-tools{width:auto;flex-wrap:nowrap;gap:6px;flex-shrink:0}
+ #pls-preview .studio-tools .pls-button{padding:7px 9px;font-size:10px;min-height:44px;flex:initial}
+ #pls-preview #pls-sound{width:44px;min-width:44px;padding:8px}#pls-preview #pls-sound-label{display:none}
+ .desktop-zoom-label{display:none}.mobile-zoom-label{display:inline}
+ #pls-preview .studio-viewbar{margin:0 0 6px;gap:5px}#pls-preview .studio-viewbar button{font-size:10px;min-height:44px;padding:7px 5px}
+ #pls-preview .pls-machine{height:clamp(185px,56vw,235px)}#pls-preview .pls-machine-wrap{margin:0;border-radius:8px}
+ #pls-preview .pls-machine-phase{font-size:9px;padding:3px 6px;max-width:calc(100% - 18px)}
+ #pls-preview .arcade-telemetry{grid-template-columns:1fr 1fr 1fr;gap:5px;margin:7px 0 0!important}
+ #pls-preview .arcade-telemetry>div,#pls-preview .arcade-telemetry .pls-reference-reading{display:flex;flex-direction:column;align-items:flex-start;grid-column:auto;padding:8px!important;gap:3px;min-width:0;border-radius:6px}
+ #pls-preview .arcade-telemetry>div>span:first-child{font-size:8px;line-height:1.4;letter-spacing:0;text-transform:none;white-space:nowrap}
+ #pls-preview .arcade-telemetry .pls-reference-reading>span:first-child{font-size:0}#pls-preview .arcade-telemetry .pls-reference-reading>span:first-child::after{content:'Load cell';font-size:9px}
+ #pls-preview .arcade-telemetry strong,#pls-preview .arcade-telemetry .pls-reference-reading strong{font-size:19px;letter-spacing:-.8px;line-height:1.25;grid-column:auto;grid-row:auto}
+ #pls-preview .arcade-telemetry small{font-size:9px;margin-left:3px}
+ #pls-preview .arcade-telemetry>div>span:last-child{display:none}
+ #pls-preview .mobile-operation-controls{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0 10px;padding:0}
+ #pls-preview .mobile-operation-controls .arcade-operation-title,#pls-preview .mobile-operation-controls .studio-safety{display:none}
+ #pls-preview .mobile-operation-controls .pls-status{grid-column:1/-1;min-height:27px;margin:0!important;padding:5px 8px;font-size:10px}
+ #pls-preview .mobile-operation-controls .pls-action-row{display:contents}
+ #pls-preview .mobile-operation-controls #pls-start{grid-column:1;grid-row:2;min-height:44px;font-size:11px;padding:8px 6px;width:100%}
+ #pls-preview .mobile-operation-controls #pls-release{grid-column:2;grid-row:2;min-height:44px;font-size:10px;padding:8px 6px}
+ #pls-preview .mobile-operation-controls #pls-tare{grid-column:1;grid-row:3;min-height:44px;font-size:10px;padding:8px 6px}
+ #pls-preview .mobile-operation-controls #pls-emergency{grid-column:2;grid-row:3;min-height:44px;margin:0;min-width:0;font-size:10px;padding:8px 5px;width:100%;gap:4px}
+ #pls-preview .mobile-operation-controls .pls-button svg{width:13px;height:13px}
+ #pls-preview .mobile-component-details{display:block;border:1px solid #364b67;border-radius:8px;background:#142238;margin:10px 0 0;overflow:hidden}
+ #pls-preview .mobile-component-details>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;font-size:12px;min-height:44px;padding:10px 12px;color:#d4e1f4;list-style:none}
+ #pls-preview .mobile-component-details>summary::-webkit-details-marker{display:none}
+ #pls-preview .mobile-component-details>summary::after{content:'⌄';color:#ffd1a0;font-size:18px;line-height:1}
+ #pls-preview .mobile-component-details[open]>summary::after{content:'⌃'}
+ #pls-preview .mobile-detail-content{display:block;padding:0 10px 12px}
+ #pls-preview .mobile-component-details:not([open]) .mobile-detail-content{display:none}
+ #pls-preview .mobile-component-details .pls-parts{grid-template-columns:1fr 1fr;margin-top:4px}
+ #pls-preview .mobile-component-details .studio-inspector{padding:12px;margin-top:10px}
+ #pls-preview .pls-console{margin-top:12px;padding:14px;border-radius:9px}
+ #pls-preview .pls-console>.pls-panel-heading,#pls-preview .pls-console>.arcade-order-summary{display:none}
+ #pls-preview .pls-console .arcade-test-title{border-top:0;padding-top:0;margin-top:0;margin-bottom:10px}
+ #pls-preview .pls-console .studio-auto-config label{font-size:11px;gap:8px}
+ #pls-preview .pls-console .studio-auto-config p{font-size:10px}
+ #pls-preview .pls-console .pls-test-actions .pls-button{font-size:11px}
+ #pls-preview .pls-response-panel{margin-top:14px;padding:14px}
+ #pls-preview .phone-editing-target .pls-machine{height:145px}
+ #pls-preview .phone-editing-target .pls-machine-panel>.pls-panel-heading,#pls-preview .phone-editing-target .studio-viewbar{display:none}
+ #pls-preview .studio-dialog-canvas .pls-machine{height:56vh!important}
+ #pls-preview .studio-dialog-canvas .pls-machine-wrap{margin:0}
+}
+@media(max-width:640px) and (max-height:700px){#pls-preview .pls-machine{height:180px}#pls-preview .phone-editing-target .pls-machine{height:130px}}
+
+@media(max-width:640px){
+ #pls-preview .mobile-load-selection .pls-presets{grid-row:1;margin:0}
+ #pls-preview .mobile-load-selection .pls-setpoint-heading{grid-row:2}
+ #pls-preview .mobile-load-selection .mobile-slider-group{grid-column:2;grid-row:2}
+ #pls-preview .studio-viewbar{display:none}
+ #pls-preview.phone-focus-open .pls-machine-panel>.studio-viewbar{display:flex}
+ #pls-preview .studio-apparatus-dialog>.studio-viewbar{display:flex}
+ #pls-preview #pls-phone-focus{display:inline-flex;padding:7px 8px;font-size:10px}
+ #pls-preview .pls-machine-panel>.pls-panel-heading{min-height:44px}
+ #pls-preview .mobile-machine-heading{font-size:11px}
+ #pls-preview #pls-zoom{padding:7px 8px}
+ #pls-preview #pls-phone-focus[aria-expanded="true"]{background:#3e3329;color:#ffcc97;border-color:#bc915d}
+ #pls-preview.phone-editing-target .pls-machine{height:145px}
+ #pls-preview.phone-editing-target .pls-machine-panel>.pls-panel-heading,#pls-preview.phone-editing-target .pls-machine-panel>.studio-viewbar{display:none}
+ #pls-preview.phone-editing-target .mobile-load-selection .pls-presets{display:none}
+ #pls-preview.phone-editing-target .mobile-load-selection .pls-setpoint-heading,#pls-preview.phone-editing-target .mobile-load-selection .mobile-slider-group{grid-row:1}
+}
+#pls-phone-focus{display:none}
+@media(max-width:640px){#pls-phone-focus{display:inline-flex}}
+@media(max-width:640px) and (max-height:700px){#pls-preview.phone-editing-target .pls-machine{height:125px}}
+
+@media(max-width:640px) and (max-height:700px){
+ #pls-preview .pls-machine-panel>.pls-panel-heading{margin-bottom:4px}
+ #pls-preview .mobile-load-selection{margin-bottom:7px}
+ #pls-preview .arcade-telemetry>div,#pls-preview .arcade-telemetry .pls-reference-reading{padding:6px!important;gap:2px}
+ #pls-preview .mobile-operation-controls{gap:5px;margin-top:6px}
+ #pls-preview .mobile-operation-controls .pls-status{min-height:24px;padding:4px 7px}
+}
 </style></head><body><div id="pls-preview" lang="id" aria-label="Preview interaktif Pneumatic Load Simulator">
   <header class="pls-header">
     <div class="pls-brand"><span class="pls-brand-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h12a3 3 0 1 0-3-3M3 12h16a3 3 0 1 1-3 3M3 16h6a3 3 0 1 1-3 3"/></svg></span><div><span class="pls-eyebrow">USU / METROLOGI &amp; INSTRUMENTASI</span><h1>Pneumatic Load Simulator</h1></div></div>
@@ -1000,5 +1102,52 @@ const root=document.getElementById('pls-preview'),el=id=>root.querySelector('#'+
 const f=(n,d)=>Number(n).toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});
 function refresh(){let s=window.plsApp.getState();el('arcade-order-value').textContent=f(s.target,1)+' kg';el('arcade-order-force').textContent=f(s.target*9.81,2)+' N';el('arcade-order-pressure').textContent=f(s.target*9.81/(Math.PI*(s.diameter/1000)**2/4*1e5),2)+' bar';}
 root.addEventListener('pls:rendered',refresh);refresh();
+})();
+</script><script>
+(() => {
+ const root=document.getElementById('pls-preview'),machine=root.querySelector('.pls-machine-panel'),consoleEl=root.querySelector('.pls-console'),media=matchMedia('(max-width:640px)');
+ // Bundle existing controls so their original listeners, state and IDs are retained.
+ const load=document.createElement('section');load.className='mobile-load-selection';load.setAttribute('aria-label','Atur beban dekat simulasi');
+ const loadSelectors=['.pls-setpoint-heading','#pls-target','.pls-range-labels','.arcade-selection-title','.pls-presets'];
+ const loadHome=document.createComment('load controls home');consoleEl.insertBefore(loadHome,consoleEl.querySelector('.pls-setpoint-heading'));
+ loadSelectors.forEach(selector=>load.appendChild(consoleEl.querySelector(selector)));
+ const sliderGroup=document.createElement('div');sliderGroup.className='mobile-slider-group';load.insertBefore(sliderGroup,load.querySelector('#pls-target'));sliderGroup.appendChild(load.querySelector('#pls-target'));sliderGroup.appendChild(load.querySelector('.pls-range-labels'));
+ consoleEl.insertBefore(load,loadHome.nextSibling);
+ const controls=document.createElement('section');controls.className='mobile-operation-controls';controls.setAttribute('aria-label','Pembebanan simulasi');
+ const controlHome=document.createComment('operation controls home');consoleEl.insertBefore(controlHome,consoleEl.querySelector('.arcade-operation-title'));
+ ['.arcade-operation-title','.studio-safety','.pls-status','#pls-start','.pls-action-row','#pls-emergency'].forEach(selector=>controls.appendChild(consoleEl.querySelector(selector)));
+ consoleEl.insertBefore(controls,controlHome.nextSibling);
+ const details=document.createElement('details');details.className='mobile-component-details';details.id='pls-component-details';
+ const summary=document.createElement('summary');summary.textContent='Komponen & detail alat';summary.setAttribute('aria-label','Tampilkan delapan komponen dan penjelasan alat');details.appendChild(summary);
+ const content=document.createElement('div');content.className='mobile-detail-content';details.appendChild(content);
+ machine.insertBefore(details,machine.querySelector('.pls-parts'));
+ ['.pls-parts','.studio-inspector','.pls-schematic-legend','.pls-frame-note'].forEach(selector=>content.appendChild(machine.querySelector(selector)));
+ const machineTitle=document.createElement('span');machineTitle.className='mobile-machine-heading';machineTitle.textContent='Simulasi live';machine.querySelector('.pls-panel-heading>div').appendChild(machineTitle);
+ const zoom=root.querySelector('#pls-zoom');const textNodes=Array.from(zoom.childNodes).filter(n=>n.nodeType===Node.TEXT_NODE);textNodes.forEach(n=>n.remove());
+ const desktopZoom=document.createElement('span');desktopZoom.className='desktop-zoom-label';desktopZoom.textContent='Perbesar alat';zoom.appendChild(desktopZoom);
+ const phoneZoom=document.createElement('span');phoneZoom.className='mobile-zoom-label';phoneZoom.textContent='Perbesar';zoom.appendChild(phoneZoom);
+ let appliedPhoneLayout=null;
+ function apply(){
+  if(appliedPhoneLayout===media.matches)return;
+  appliedPhoneLayout=media.matches;
+  root.classList.toggle('phone-operate',media.matches);
+  if(media.matches){machine.insertBefore(load,machine.firstElementChild);machine.insertBefore(controls,details);details.open=false;}
+  else{consoleEl.insertBefore(load,loadHome.nextSibling);consoleEl.insertBefore(controls,controlHome.nextSibling);details.open=true;root.classList.remove('phone-editing-target');}
+ }
+ root.querySelectorAll('[data-component-select]').forEach(b=>b.addEventListener('click',()=>{if(media.matches)details.open=true;}));
+ const number=root.querySelector('#pls-target-number');number.inputMode='decimal';
+ number.addEventListener('focus',()=>{if(media.matches)root.classList.add('phone-editing-target');});
+ number.addEventListener('blur',()=>root.classList.remove('phone-editing-target'));
+ media.addEventListener('change',apply);window.addEventListener('resize',apply);apply();
+})();
+</script><script>
+(() => {
+ const root=document.getElementById('pls-preview'),tools=root.querySelector('.studio-tools'),bar=root.querySelector('.studio-viewbar');
+ bar.id='pls-phone-views';
+ const focus=document.createElement('button');focus.type='button';focus.id='pls-phone-focus';focus.className='pls-button';focus.textContent='Fokus';focus.setAttribute('aria-expanded','false');focus.setAttribute('aria-controls','pls-phone-views');tools.insertBefore(focus,tools.firstElementChild);
+ function close(){root.classList.remove('phone-focus-open');focus.setAttribute('aria-expanded','false');}
+ focus.addEventListener('click',()=>{let open=root.classList.toggle('phone-focus-open');focus.setAttribute('aria-expanded',String(open));});
+ bar.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',close));
+ root.querySelector('#pls-zoom').addEventListener('click',close);
 })();
 </script></body></html>
